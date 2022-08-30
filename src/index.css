@@ -1,0 +1,26 @@
+.Loading {
+  text-align: center;
+  margin: 20% 0;
+}
+
+@media (max-width:580px) {
+  .Loading {
+    margin: 40% 0;
+  }
+
+  .showdata {
+    display: flex;
+    flex-direction: column;
+    margin: 10% 0;
+    text-align: center;
+  }
+
+  img {
+    margin: auto 15%;
+  }
+}
+
+.nav {
+  width: 100%;
+  background-color: cadetblue;
+}
